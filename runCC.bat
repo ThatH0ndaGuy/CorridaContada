@@ -1,11 +1,8 @@
 @echo off
-cd "C:\Users\Nicolas\Downloads\CorridaContada"
+cd C:\Users\Nicolas\Downloads\CorridaContada
 :loop
-echo new run!!!!
+echo New Run.
 echo.
+CorridaContada.py --pt-br
 echo.
-CorridaContada.py
-echo no mor runnin :(
-echo.
-pause
 goto loop
