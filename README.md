@@ -1,2 +1,2 @@
 # CorridaContada
-A simple game about math. Made for a school projet.
+A simple game about math. Made for a school project.
