@@ -2,6 +2,6 @@
 :loop
 echo New Run.
 echo.
-CorridaContada.py --pt-br
+CorridaContada.py 
 echo.
 goto loop
