@@ -1,5 +1,4 @@
 @echo off
-cd C:\Users\Nicolas\Downloads\CorridaContada
 :loop
 echo New Run.
 echo.
