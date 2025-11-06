@@ -315,7 +315,7 @@ while not ABORT_CODE_EXECUTION:
         
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                exit()
+                ABORT_CODE_EXECUTION = True
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_INSERT:
                     if DebugMode:
@@ -326,7 +326,7 @@ while not ABORT_CODE_EXECUTION:
                     if GameState==2:
                         GameState+=1
                     else:
-                        exit()
+                        ABORT_CODE_EXECUTION = True
                 if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER or event.key == pygame.K_SPACE:
                     if GameState==0:
                         GameState+=1
